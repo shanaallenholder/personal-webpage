@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* The * targets the whole page, here I'm changing the padding on the whole file
+I've removed all the padding to allow me the control of doing my own  */ 
+/* 1. smoothly across the cursor in the html file */
+* {  
+    margin:0;
+    padding:0;
+
+}
+
+/* Desktop navigation bar
+Flexxing the navbar is now in a line on the navigation bar 
+20vh will take 20% of the screen only. */
+
+nav, .nav-links {
+    display: flex; 
+    list-style: none;
+    gap: 24px;
+    
+}
+
+nav {
+    justify-content: space-between;
+    align-items: centre;
+    padding-top: 20px;
+    
+   
+}
+
+
+body {
+    font-family:"Poppins", sans-serif;
+    
+}
+
+main {
+ 
+}
+
+
+/* Transitioning from one page to the next */
+a, .bth {
+    transition:all 200ml ease;
+}
+
+footer img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap 24px;
+   
+    
+   
+}
+
+#shana {
+    width: 20%;
+    border-radius: 50%;
+}
+
